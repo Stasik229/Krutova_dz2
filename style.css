@@ -1,0 +1,53 @@
+.title {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.div-checkbox {
+    align-self: flex-start;
+}
+
+.div-button {
+    align-self: center;
+}
+
+.submit-button {
+    background-color: #428eff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.congrats {
+    text-align: center;
+    font-size: 100px;
+    color: green;
+    margin-top: -20px;
+}
+
+img {
+    width: 1000px;
+}
+

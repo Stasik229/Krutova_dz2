@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
 </head>
 <body>
-    
+    <h1 class="title">Регистрация</h1>
+    <hr size="2px" color="black">
+    <div class="form">
+        <form id="form">
+            <div>
+                <label>ФИО:</label>
+                <input class="input-name" type="text" required>
+            </div>
+            <div>
+                <label>Электронная почта:</label>
+                <input class="input-email" type="email" required>
+            </div>
+            <div>
+                <label>Пароль:</label>
+                <input class="input-password" type="password" required>
+            </div>
+            <div>
+                <label>Повторите пароль:</label>
+                <input class="input-password" type="password" required>
+            </div>
+            <div class="div-checkbox">
+                <label>Согласие с условиями:</label>
+                <input class="input-checkbox" type="checkbox" required>
+            </div>
+            <div class="div-button">
+                <button type="submit" class="submit-button">Отправить</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
